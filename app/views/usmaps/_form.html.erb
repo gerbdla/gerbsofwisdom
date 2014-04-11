@@ -1,0 +1,17 @@
+<%= form_for(@usmap) do |f| %>
+  <% if @usmap.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@usmap.errors.count, "error") %> prohibited this usmap from being saved:</h2>
+
+      <ul>
+      <% @usmap.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

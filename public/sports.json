@@ -1,0 +1,36 @@
+{
+ "name": "flare",
+ "children": [
+  {
+   "name": "analytics",
+   "children": [
+    {
+     "name": "NFC",
+     "children": [
+      {"name": "Washington Redskins", "size": 3938},
+      {"name": "Tampa Bay Buccaneers", "size": 3812},
+      {"name": "Atlanta Falcons", "size": 6714},
+      {"name": "Minnestoa Vikings", "size": 743},
+			{"name": "St.Louis Rams", "size": 743},
+			{"name": "Detroit Lions", "size": 743},
+			{"name": "New York Giants", "size": 743},
+			{"name": "Dallas Cowboys", "size": 743},
+			{"name": "Chicago Bears", "size": 743}]}]
+  },
+	{
+   "name": "analytics",
+   "children": [
+    {
+     "name": "AFC",
+     "children": [
+      {"name": "Denver Broncos", "size": 3938},
+      {"name": "New England Patriots", "size": 3812},
+      {"name": "Cincinatti Bengals", "size": 6714},
+      {"name": "Kanasas City Chiefs", "size": 743},
+			{"name": "San Diego Chargers", "size": 743},
+			{"name": "Pittsburgh Steelers", "size": 743}]}]
+  }
+
+
+ ]
+}
